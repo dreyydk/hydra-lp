@@ -5,6 +5,7 @@ import Subtitle from "@/components/Subtitle/Subtitle";
 import Image from "next/image";
 import logo from "../../public/logowhite.png";
 import Button from "@/components/Button/Button";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <Button>Cybersecurity for people</Button>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
