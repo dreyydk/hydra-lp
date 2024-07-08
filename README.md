@@ -11,11 +11,11 @@ This repository contains the source code for a landing page for Hydra, a fiction
 ## Technologies Used
 
 - **Next.js:** A React framework for building fast, scalable, and SEO-friendly web applications.
-- **HTML, CSS, JavaScript:** The core web technologies used to create the structure, style, and functionality of the landing page.
+- **HTML, CSS, TypeScript:** The core web technologies used to create the structure, style, and functionality of the landing page.
 
 ## Testing
 
-To view the landing page, simply click on the link:
+To view the landing page, simply click on the link: https://hydra-lp.vercel.app
 
 ## Customization
 
