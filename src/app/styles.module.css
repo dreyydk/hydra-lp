@@ -1,0 +1,28 @@
+.firstScreen {
+  background: url("../../public/background.png") no-repeat center center;
+  background-size: cover;
+}
+
+.main {
+  min-height: 90vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+.buttonContainer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

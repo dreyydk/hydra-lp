@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.mobileIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.mobileIconLine {
+  width: 24px;
+  height: 2px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 2px;
+}
+
+.title {
+  font-family: "Play", sans-serif;
+  color: white;
+  font-weight: 400;
+}
