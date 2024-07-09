@@ -11,13 +11,15 @@ export default function Header() {
         <div className={styles.mobileIconLine}></div>
       </div>
       <h1 className={styles.title}>HYDRA</h1>
-      <Image
-        src={UserIcon}
-        width={25}
-        height={25}
-        alt="Login/Sign Up"
-        className={styles.user}
-      />
+      <a href="https://hydra-loginhydra-login.vercel.app">
+        <Image
+          src={UserIcon}
+          width={25}
+          height={25}
+          alt="Login/Sign Up"
+          className={styles.user}
+        />
+      </a>
     </header>
   );
 }
